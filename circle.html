@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="circle.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <section class="center">
+        <section class="upper">
+            <h2>Elevate Your Brand: Discover Tailored Excellence in Our Marketing Services</h2>
+            <button  onclick="btn()" id="view">View All -></button>
+        </section>
+        <section class="lower" id="lower">
+            <div class="outer_circle" id="outer_circle">
+                <div onmouseover="myOverFunction1()" class="item out-1" id="out-1">Web Designing</div>
+                <div onmouseover="myOverFunction2()" class="item out-2" id="out-2">Web Branding</div>
+                <div onmouseover="myOverFunction3()" class="item out-3" id="out-3">Web Optimization</div>
+                <div onmouseover="myOverFunction4()" class="item out-4" id="out-4">Web maintainence</div>
+                <div class="inner_circle" id="inner_circle">
+                    <div onclick="myFunction()" class="it in-1" id="in-1">Website</div>
+                    <div onclick="market()" class="it in-2" id="in-1">Marketing</div>
+                    <div onclick="cd()" class="it in-3">Creative</div>
+                    <div onclick="seo()" class="it in-4">SEO</div>
+                </div>
+            </div>
+        </section>
+    </section>
+    <script src="circle.js"></script>
+</body>
+</html>
